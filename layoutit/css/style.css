@@ -1,0 +1,96 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("../imagenes/background_login.png");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.font_a1 {
+    font-family: "Abadi MT Condensed Light";
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+  }
+
+.font_a2 {
+    font-family: "Abadi MT Condensed Light";
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+  }
+
+.font_a3 {
+    font-family: "Abadi MT Condensed Light";
+    color: rgb(255, 255, 255);
+    font-size: large;
+  }
+
+.font_a4 {
+    font-family: "Abadi MT Condensed Light";
+    color: rgb(255, 255, 255);
+    font-size: medium;
+  }
+
+  .font_b4 {
+    font-family: "Abadi MT Condensed Light";
+    color: #7a3da7;
+    font-size: medium;
+  }
+
+.font_a5 {
+    font-family: "Abadi MT Condensed Light";
+    color: rgb(255, 255, 255);
+    font-size: small;
+  }
+
+  .font_a6 {
+    font-family: "Abadi MT Condensed Light";
+    color: rgb(255, 255, 255);
+    font-size: x-small;
+  }
+
+  .font_a6 {
+    font-family: "Abadi MT Condensed Light";
+    color: rgb(255, 255, 255);
+    font-size: xx-small;
+  }
+
+  .btn_a1 {
+
+    color: rgb(255, 255, 255);
+    background: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 6px;
+  }
+
+  .btn_a1:hover {
+    background-color: #7a3da7;
+    border: 2px solid #ffffff;
+    color: white;
+  }
+
+
+  .btn_b1 {
+
+
+    font-family: "Abadi MT Condensed Light";
+    font-size: medium;
+    color: #ffffff;
+    background:  #7a3da7;
+    border-radius: 6px;
+  }
+
+  .btn_b1:hover {
+    background-color: #7a3da7;
+    border: 2px solid #ffffff;
+    color: white;
+  }
