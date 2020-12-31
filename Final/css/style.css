@@ -79,6 +79,32 @@ body, html {
   }
 
 
+
+  .icon_a1 {
+  
+    color:#929292;
+    position: absolute;
+    background: #ffffff;
+    margin-right: 18px;
+    margin-top: 2px;
+    width: 44px;
+    height: 36px;
+    padding-top: 8px;
+    border: 1px solid #ffffff;
+  
+  }
+
+  input[type="text"],input[type="password"]{
+    width: 240px;
+    height: 44px;
+    margin-bottom: 20px;
+    font-size: 10px;
+    border: 1px solid #000;
+    padding-left: 45px;
+
+  }
+
+
   .btn_b1 {
 
 

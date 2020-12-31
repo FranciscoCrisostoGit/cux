@@ -13,6 +13,8 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
+	<script src="https://kit.fontawesome.com/85ea8941b8.js" crossorigin="anonymous"></script>
+
   </head>
   <body>
 
@@ -66,16 +68,24 @@
 		</div>
 		<div class="col-md-6">
 			<form role="form">
+
+				<p class="font_a4">
+					Sign in to your account
+				</p>
+
 				<div class="form-group">
-					 
-					<label for="username" class="font_a4">
-						Sign in to your account
-					</label>
-					<input type="email" class="form-control" id="username" placeholder="Username">
+					<i class="fas fa-user fa-1x icon_a1" aria-hidden="true"></i>
+					
+					<input type="text" id="username" placeholder="Username">
+
 				</br>
-					<input type="password" class="form-control" id="password" placeholder="Password">
+				</br>
+					
+					<i class="fa fa-lock fa-1x icon_a1" aria-hidden="true"></i>
+					<input type="password" id="password" placeholder="Password">
 				</div>
 			
+				<i class="fas fa-arrow-circle-right"></i>
 				<button type="submit" class="btn_b1">
 					Sign in
 				</button>
