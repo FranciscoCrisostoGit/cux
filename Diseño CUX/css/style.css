@@ -1,125 +1,106 @@
+/* ---- reglas generales ---- */
+
+::-webkit-scrollbar {
+  display: none;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+}
+img{
+  display:block;
+  margin:auto;
+  }
+form {
+    text-align: center;
+  }
+
+
+.bg {
+    /* The image used */
+    background-image: url("../imagenes/background_login.png");
+  
+    /* Full height */
+    height: auto;
+  
+    width: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ---- importacion f-face ---- */
+@font-face {
+  font-family: AbadiLight;
+  src: url('../fonts/Abadi\ MT\ Condensed\ Light\ Regular.ttf') format('truetype');
+  font-style: normal;
+}
+@font-face {
+  font-family: AbadiBold;
+  src: url('../fonts/Abadi\ MT\ Condensed\ Extra\ Bold\ Regular.ttf') format('truetype');
+  font-style: normal;
+}
+
+
+/* ---- MediaQ ---- */
 @media only screen and (max-width: 767px) {
   body {
     /* The file size of this background image is 93% smaller
        to improve page load speed on mobile internet connections */
     background-image: url(../imagenes/background_login.png);
-
-
-
     background-position: center;
     background-size: cover;
   }
 }
 
 
-body, html {
-  height: 100%;
-  margin: 0;
+/* ---- nav ---- */
+.font_b4a {
+  font-family: AbadiLight;
+  color: #7a3da7;
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.font_b4b {
+  font-family: AbadiLight;
+  color: #7a3da7;
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-right: 70px;
+
 }
 
 
 
-img{
-  display:block;
-  margin:auto;
-  }
-
-
-  form {
-    text-align: center;
-
-}
-
-
-.bg {
-  /* The image used */
-  background-image: url("../imagenes/background_login.png");
-
-  /* Full height */
-  height: auto;
-
-  width: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.font_a1 {
-    font-family: "Abadi MT Condensed Light";
-    color: rgb(255, 255, 255);
-    font-size: xx-large;
-  }
-
-.font_a2 {
-    font-family: "Abadi MT Condensed Light";
-    color: rgb(255, 255, 255);
-    font-size: x-large;
-  }
+/* ---- izquierda ---- */
 
 .font_a3 {
-    font-family: "Abadi MT Condensed Light";
-    color: rgb(255, 255, 255);
-    font-size: xx-large;
-    font-weight: bold;
-  }
+  font-family: AbadiLight;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+
+}
 
 .font_a4 {
-    font-family: "Abadi MT Condensed Light";
-    color: rgb(255, 255, 255);
-    font-size: x-large;
-    font-weight: bold;
+  font-family: AbadiLight;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-weight: bold;
   }
 
-  .font_b4a {
-    font-family: "Abadi MT Condensed Light";
-    color: #7a3da7;
-    font-size: x-large;
-    font-weight: bold;
-
-    margin-top: 10px;
-    
-    margin-right: 0px;
-
-  }
-
-  .font_b4b {
-    font-family: "Abadi MT Condensed Light";
-    color: #7a3da7;
-    font-size: x-large;
-    font-weight: bold;
-
-    margin-top: 10px;
-    margin-right: 60px;
-
-
-
-  }
-
-.font_a5 {
-    font-family: "Abadi MT Condensed Light";
-    color: rgb(255, 255, 255);
-    font-size: small;
-  }
-
-  .font_a6 {
-    font-family: "Abadi MT Condensed Light";
-    color: rgb(255, 255, 255);
-    font-size: x-small;
-  }
-
-  .font_a6 {
-    font-family: "Abadi MT Condensed Light";
-    color: rgb(255, 255, 255);
-    font-size: xx-small;
-  }
 
   .btn_a1 {
 
-    font-family: "Abadi MT Condensed Light";
-    font-weight: bold;
+    font-family: AbadiBold;
     color: rgb(255, 255, 255);
+    font-size: 20px;
+    
+    
     background: transparent;
     border: 2px solid #ffffff;
     border-radius: 6px;
@@ -137,7 +118,38 @@ img{
 
 
 
-  .icon_a1 {
+/* ---- derecha form ---- */
+input:focus {
+  outline:none;
+}
+
+input[type="text"],input[type="password"]{
+  width: 305px;
+  height: 42px;
+  margin-bottom: 20px;
+  font-size: medium;
+  border: 1px solid #fff;
+  padding-left: 45px;
+  border-radius: 6px;
+
+}
+
+input::placeholder {
+  color:#929292;
+  font-family: AbadiLight;
+  font-size: 22px;
+}
+
+
+.font_f1 {
+  font-family: AbadiLight;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-weight: bold;
+  }
+
+
+.icon_f2 {
   
     color:#929292;
     position: absolute;
@@ -148,29 +160,11 @@ img{
     height: 25px;
     padding-top: 12px;
     padding-left: 14px;
-   
     border-radius: 6px;
   
   }
 
-  input[type="text"],input[type="password"]{
-    width: 305px;
-    height: 42px;
-    margin-bottom: 20px;
-    font-size: medium;
-    border: 1px solid #fff;
-    padding-left: 45px;
-    border-radius: 6px;
-
-  }
-
-  input:focus {
-    outline:none;
-  }
-
-
-
-  .icon_b1 {
+  .icon_bf {
     color:#929292;
     position: absolute;
     background: transparent;
@@ -179,30 +173,20 @@ img{
     font-size: 30px;
   }
 
-
-  .btn_b1 {
-    font-family: "Abadi MT Condensed Light";
+  .btn_f4 {
+    font-family: AbadiLight;
+    font-weight: bold;
     font-size: large;
     color: #ffffff;
     background:  #7a3da7;
-  
-    font-weight: bold;
-
     width: 305px;
     height: 42px;
     margin-bottom: 20px;
- 
     border: 0px solid #7a3da7;
     padding-left: 0px;
     border-radius: 6px;
-
-
-
   }
-
-  .btn_b1:hover {
+  .btn_f4:hover {
     background: #623186;
-
   }
-
 
