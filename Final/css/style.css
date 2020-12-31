@@ -33,10 +33,12 @@ img{
 
 .bg {
   /* The image used */
-  background-image: url("../imagenes/background_login_large.jpg");
+  background-image: url("../imagenes/background_login.png");
 
   /* Full height */
-  height: 100%;
+  height: auto;
+
+  width: 100%;
 
   /* Center and scale the image nicely */
   background-position: center;
