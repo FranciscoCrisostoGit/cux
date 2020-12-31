@@ -32,18 +32,21 @@ body, html {
     font-family: "Abadi MT Condensed Light";
     color: rgb(255, 255, 255);
     font-size: large;
+    font-weight: bold;
   }
 
 .font_a4 {
     font-family: "Abadi MT Condensed Light";
     color: rgb(255, 255, 255);
     font-size: medium;
+    font-weight: bold;
   }
 
   .font_b4 {
     font-family: "Abadi MT Condensed Light";
     color: #7a3da7;
     font-size: medium;
+    font-weight: bold;
   }
 
 .font_a5 {
@@ -66,6 +69,8 @@ body, html {
 
   .btn_a1 {
 
+    font-family: "Abadi MT Condensed Light";
+    font-weight: bold;
     color: rgb(255, 255, 255);
     background: transparent;
     border: 2px solid #ffffff;
@@ -84,39 +89,87 @@ body, html {
   
     color:#929292;
     position: absolute;
-    background: #ffffff;
-    margin-right: 18px;
-    margin-top: 2px;
-    width: 44px;
-    height: 36px;
-    padding-top: 8px;
-    border: 1px solid #ffffff;
+    background: transparent;
+    margin-right: 30px;
+    margin-top: 1px;
+    width: 30px;
+    height: 25px;
+    padding-top: 7px;
+    padding-left: 14px;
+   
+    border-radius: 6px;
   
   }
 
   input[type="text"],input[type="password"]{
     width: 240px;
-    height: 44px;
+    height: 30px;
     margin-bottom: 20px;
-    font-size: 10px;
-    border: 1px solid #000;
+    font-size: 12px;
+    border: 1px solid #fff;
     padding-left: 45px;
+    border-radius: 6px;
 
+  }
+
+  input:focus {
+    outline:none;
+  }
+
+
+
+  .icon_b1 {
+    color:#929292;
+    position: absolute;
+    background: transparent;
+    margin-right: 30px;
+    margin-top: 1px;
+    width: 30px;
+    height: 25px;
+    padding-top: 7px;
+    padding-left: 14px;
+   
+    border-radius: 6px;
+  
   }
 
 
   .btn_b1 {
-
-
     font-family: "Abadi MT Condensed Light";
     font-size: medium;
     color: #ffffff;
     background:  #7a3da7;
+    width: 240px;
+    height: 30px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+
     border-radius: 6px;
+    border: 1px solid #7a3da7;
+
+    font-weight: bold;
   }
 
   .btn_b1:hover {
-    background-color: #7a3da7;
-    border: 2px solid #ffffff;
-    color: white;
+    background: #623186;
+
+  }
+
+
+  
+
+  .icon_b1 {
+  
+    color:#929292;
+    position: absolute;
+    background: transparent;
+    margin-right: 30px;
+    margin-top: 1px;
+    width: 30px;
+    height: 25px;
+    padding-top: 7px;
+    padding-left: 70px;
+   
+    border-radius: 6px;
+  
   }
