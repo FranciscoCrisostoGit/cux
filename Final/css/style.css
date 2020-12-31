@@ -3,6 +3,19 @@ body, html {
   margin: 0;
 }
 
+
+
+img{
+  display:block;
+  margin:auto;
+  }
+
+
+  form {
+    text-align: center;
+}
+
+
 .bg {
   /* The image used */
   background-image: url("../imagenes/background_login.png");
@@ -31,22 +44,40 @@ body, html {
 .font_a3 {
     font-family: "Abadi MT Condensed Light";
     color: rgb(255, 255, 255);
-    font-size: large;
+    font-size: xx-large;
     font-weight: bold;
   }
 
 .font_a4 {
     font-family: "Abadi MT Condensed Light";
     color: rgb(255, 255, 255);
-    font-size: medium;
+    font-size: x-large;
     font-weight: bold;
   }
 
-  .font_b4 {
+  .font_b4a {
     font-family: "Abadi MT Condensed Light";
     color: #7a3da7;
-    font-size: medium;
+    font-size: x-large;
     font-weight: bold;
+
+    margin-top: 10px;
+    
+    margin-right: 0px;
+
+  }
+
+  .font_b4b {
+    font-family: "Abadi MT Condensed Light";
+    color: #7a3da7;
+    font-size: x-large;
+    font-weight: bold;
+
+    margin-top: 10px;
+    margin-right: 60px;
+
+
+
   }
 
 .font_a5 {
@@ -75,6 +106,10 @@ body, html {
     background: transparent;
     border: 2px solid #ffffff;
     border-radius: 6px;
+  
+    display:block;
+    margin:auto;
+  
   }
 
   .btn_a1:hover {
@@ -94,7 +129,7 @@ body, html {
     margin-top: 1px;
     width: 30px;
     height: 25px;
-    padding-top: 7px;
+    padding-top: 12px;
     padding-left: 14px;
    
     border-radius: 6px;
@@ -102,10 +137,10 @@ body, html {
   }
 
   input[type="text"],input[type="password"]{
-    width: 240px;
-    height: 30px;
+    width: 305px;
+    height: 42px;
     margin-bottom: 20px;
-    font-size: 12px;
+    font-size: medium;
     border: 1px solid #fff;
     padding-left: 45px;
     border-radius: 6px;
@@ -122,32 +157,30 @@ body, html {
     color:#929292;
     position: absolute;
     background: transparent;
-    margin-right: 30px;
-    margin-top: 1px;
-    width: 30px;
-    height: 25px;
-    padding-top: 7px;
-    padding-left: 14px;
-   
-    border-radius: 6px;
-  
+    padding-top: 6px;
+    padding-left: 80px;
+    font-size: 30px;
   }
 
 
   .btn_b1 {
     font-family: "Abadi MT Condensed Light";
-    font-size: medium;
+    font-size: large;
     color: #ffffff;
     background:  #7a3da7;
-    width: 240px;
-    height: 30px;
-    margin-bottom: 20px;
-    padding-left: 10px;
-
-    border-radius: 6px;
-    border: 1px solid #7a3da7;
-
+  
     font-weight: bold;
+
+    width: 305px;
+    height: 42px;
+    margin-bottom: 20px;
+ 
+    border: 0px solid #7a3da7;
+    padding-left: 0px;
+    border-radius: 6px;
+
+
+
   }
 
   .btn_b1:hover {
@@ -156,20 +189,3 @@ body, html {
   }
 
 
-  
-
-  .icon_b1 {
-  
-    color:#929292;
-    position: absolute;
-    background: transparent;
-    margin-right: 30px;
-    margin-top: 1px;
-    width: 30px;
-    height: 25px;
-    padding-top: 7px;
-    padding-left: 70px;
-   
-    border-radius: 6px;
-  
-  }
