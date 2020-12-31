@@ -1,3 +1,17 @@
+@media only screen and (max-width: 767px) {
+  body {
+    /* The file size of this background image is 93% smaller
+       to improve page load speed on mobile internet connections */
+    background-image: url(../imagenes/background_login.png);
+
+
+
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+
 body, html {
   height: 100%;
   margin: 0;
@@ -13,15 +27,16 @@ img{
 
   form {
     text-align: center;
+
 }
 
 
 .bg {
   /* The image used */
-  background-image: url("../imagenes/background_login.png");
+  background-image: url("../imagenes/background_login_large.jpg");
 
   /* Full height */
-  height: 100%; 
+  height: 100%;
 
   /* Center and scale the image nicely */
   background-position: center;
