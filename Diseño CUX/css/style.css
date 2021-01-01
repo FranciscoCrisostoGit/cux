@@ -1,35 +1,18 @@
-/* ---- reglas generales ---- */
-
-::-webkit-scrollbar {
-  display: none;
+/* <---- reglas generales ---- */
+body{
+      background-image: url('../imagenes/background_login.png');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
 }
-body, html {
-  height: 100%;
+
+.contenedor{
+  width: 100%;
+  max-width: 2000px;
   margin: 0;
+  overflow: hidden;
 }
-img{
-  display:block;
-  margin:auto;
-  }
-form {
-    text-align: center;
-  }
 
-
-.bg {
-    /* The image used */
-    background-image: url("../imagenes/background_login.png");
-  
-    /* Full height */
-    height: auto;
-  
-    width: 100%;
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 /* ---- importacion f-face ---- */
 @font-face {
@@ -45,16 +28,46 @@ form {
 
 
 /* ---- MediaQ ---- */
-@media only screen and (max-width: 767px) {
-  body {
-    /* The file size of this background image is 93% smaller
-       to improve page load speed on mobile internet connections */
-    background-image: url(../imagenes/background_login.png);
-    background-position: center;
-    background-size: cover;
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .nav,.font_a3,p,#btna {
+    display: none;
+  }
+  #form_a,form{
+    padding-top: 5%;
+  }
+  img{
+    padding-top: 10%;
   }
 }
 
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .nav,.font_a3,p,#btna {
+    display: none;
+  }
+
+  #form_a,form{
+    padding-top: 2%;
+  }
+  img{
+    padding-top: 5%;
+  }
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+  #hh3,pp{
+    font-size: 50px;
+  }
+
+} 
+
+
+
+/* ---- reglas generales end----> */
 
 /* ---- nav ---- */
 .font_b4a {
@@ -78,22 +91,24 @@ form {
 
 
 /* ---- izquierda ---- */
-
+img {
+  width: 40%;
+  max-width: 80%;
+  height: auto;
+  display:block;
+  margin:auto;
+}
 .font_a3 {
   font-family: AbadiLight;
   color: rgb(255, 255, 255);
   font-size: 40px;
-
 }
-
 .font_a4 {
   font-family: AbadiLight;
   color: rgb(255, 255, 255);
   font-size: 25px;
   font-weight: bold;
   }
-
-
   .btn_a1 {
 
     font-family: AbadiBold;
@@ -119,10 +134,12 @@ form {
 
 
 /* ---- derecha form ---- */
+form {
+  text-align: center;
+}
 input:focus {
   outline:none;
 }
-
 input[type="text"],input[type="password"]{
   width: 305px;
   height: 42px;
@@ -146,6 +163,7 @@ input::placeholder {
   color: rgb(255, 255, 255);
   font-size: 25px;
   font-weight: bold;
+  margin-bottom: 15px;
   }
 
 
